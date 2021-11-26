@@ -1,2 +1,2 @@
 # Dibujar_con_el_Mouse
-con este programa se puede dibujart con la ayuda del Mouse 
+Con este programa se puede dibujar con la ayuda del Mouse 
