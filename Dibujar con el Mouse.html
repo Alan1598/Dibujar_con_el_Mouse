@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title> Dibujar con el Mause </title>
+        <style>
+            body
+            {
+                background-color:aliceblue;
+                color: black
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Preparate es tu momento de dibujar. </h1> 
+        <p> Escoje el Color con el que quieras pintas </p>
+
+        <p>Para poder dibujar manten el mouse oprimido.</p>
+        <p> Coloca el mouse en el papel para dibujar y dibuja lo que tu quieras. </p>
+       
+        <canvas width="700" height="400" id="area_de_dibujo"></canvas>
+        <p> Escoje el Color con el que quieras pintas </p>
+        <input type="color" id="tipo_color"/>
+        <p>Escoje el grosor de la linea </p>
+        <input type ="number"value="1" id="grosor_linea"/>
+        <script src = "estructura_mouse.js"></script>
+        <p>Mueve tu mause y empieza a dibujar</p>
+
+
+    </body>
+</html>
